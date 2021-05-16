@@ -1,0 +1,57 @@
+body{
+  min-height: 100vh;
+  max-width: 400px;
+  margin: auto;
+  align-content: center;
+}
+
+.container{
+  padding: 0;
+  margin: 5px;
+  position: static;
+  
+}
+
+img {
+  padding: 5px;
+  width: 400px;
+  height:150px
+}
+
+.search{
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+#searchbox{
+  padding: 20px 200px 20px 200px;
+  border-radius: 15px;
+}
+
+.button{
+  border: none;
+  padding: 0 150px 0 150px;
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  align-content: flex-center;  
+}
+
+.smallbutton{
+  padding: 15px;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 600px){
+  body{
+    background-color: purple;
+    height: auto;
+    width: auto;
+  }
+}
+
+
+
+
+
